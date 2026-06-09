@@ -1,0 +1,37 @@
+# === Python (backend) ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# 仮想環境は手元構築なので共有しない
+.venv/
+venv/
+
+# === Node.js (frontend) ===
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# === 環境変数（秘匿） ===
+.env
+.env.local
+.env.*.local
+
+# === SQLite DB（開発DBは共有しない） ===
+*.db
+*.sqlite
+*.sqlite3
+
+# === エディタ / OS ===
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

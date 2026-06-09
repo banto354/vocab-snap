@@ -1,0 +1,11 @@
+[project]
+name = "vocab-snap-backend"
+version = "0.1.0"
+description = "Backend for vocab-snap (パシャ単) - 画像から英単語をワンタップ登録する単語帳アプリ"
+requires-python = ">=3.11"
+dependencies = [
+    # FastAPI: 型ヒント駆動のAPIフレームワーク。Pydanticでリクエスト/レスポンスを検証
+    "fastapi>=0.115.0",
+    # uvicorn[standard]: 'standard' エクストラで watchfiles 等が入り --reload が効く
+    "uvicorn[standard]>=0.32.0",
+]
